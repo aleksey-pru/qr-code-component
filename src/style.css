@@ -1,0 +1,69 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  background-color: #d5e1ef;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.wrapper .container {
+  margin: 0 auto;
+  border-radius: 20px;
+  padding: 16px 16px 40px 16px;
+  width: 320px;
+  height: 499px;
+  box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.05);
+  background: #fff;
+}
+.wrapper .container img {
+  border-radius: 10px;
+}
+.wrapper .container .qr-text {
+  padding: 24px 16px 0px 16px;
+}
+.wrapper .container .qr-text .qr-text-h3 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 120%;
+  text-align: center;
+  color: #1f314f;
+  margin-bottom: 16px;
+}
+.wrapper .container .qr-text .qr-text-p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 140%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #68778d;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,62 @@
+@use 'common';
+
+$font: "Outfit", sans-serif;
+
+$colors: (
+        slate-900: #1f314f,
+        slate-500: #68778d,
+        slate-300: #d5e1ef,
+        white: #fff,
+        blue-600: #2c7dfa,
+        blue-500: #3685ff
+);
+
+body {
+  background-color: map-get($colors, slate-300);
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+
+  .container {
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 16px 16px 40px 16px;
+    width: 320px;
+    height: 499px;
+    box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.05);
+    background: map-get($colors, white);
+
+    img {
+      border-radius: 10px;
+    }
+
+    .qr-text {
+
+      padding: 24px 16px 0px 16px;
+
+      .qr-text-h3 {
+        font-family: $font;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 120%;
+        text-align: center;
+        color: map-get($colors, slate-900);
+        margin-bottom: 16px;
+      }
+
+      .qr-text-p {
+        font-family: $font;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 140%;
+        letter-spacing: 0.01em;
+        text-align: center;
+        color: map-get($colors, slate-500);
+      }
+    }
+  }
+}
+
+
